@@ -1,14 +1,17 @@
 {
   "name": "phaser-nature-of-code",
   "version": "1.0.0",
-  "homepage": "https://gitlab.com/201flaviosilva/Phaser-Nature-of-Code#readme",
+  "homepage": "https://201flaviosilva.gitlab.io/Phaser-Nature-of-Code/",
   "description": "Implementation of Nature of Code in Phaser",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "201flaviosilva",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
   "keywords": [],
   "repository": {
     "type": "git",
