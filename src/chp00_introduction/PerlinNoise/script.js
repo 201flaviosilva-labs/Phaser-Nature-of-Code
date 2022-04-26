@@ -1,4 +1,4 @@
-import { noise, noiseDetail } from "../../utils/noise.js";
+import noise from "../../utils/noise.js";
 
 class Graphics extends Phaser.GameObjects.Graphics {
 	constructor(scene, x, y) {
