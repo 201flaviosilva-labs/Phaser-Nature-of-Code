@@ -1,3 +1,5 @@
+import { RandomVector2D } from "../../utils/math.js";
+
 class Lines extends Phaser.GameObjects.Graphics {
 	constructor(scene, x, y, color) {
 		super(scene, {
@@ -14,7 +16,7 @@ class Lines extends Phaser.GameObjects.Graphics {
 	}
 
 	update() {
-		const randomVector2 = new Phaser.Math.Vector2(Phaser.Math.FloatBetween(-1, 1), Phaser.Math.FloatBetween(-1, 1));
+		const randomVector2 = RandomVector2D();
 		randomVector2.normalize();
 		randomVector2.scale(Phaser.Math.Between(0, 300));
 
