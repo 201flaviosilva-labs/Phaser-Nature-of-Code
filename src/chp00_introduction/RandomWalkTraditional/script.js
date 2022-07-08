@@ -41,7 +41,7 @@ class MainScene extends Phaser.Scene {
 const config = {
 	width: 800,
 	height: 600,
-	type: Phaser.Auto,
+	type: Phaser.CANVAS,
 	backgroundColor: "#000000",
 	render: {
 		clearBeforeRender: false,
