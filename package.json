@@ -19,9 +19,9 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/201flaviosilva/Phaser-Nature-of-Code.git"
+    "url": "git+ssh://git@github.com/201flaviosilva-labs/Phaser-Nature-of-Code.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/201flaviosilva/Phaser-Nature-of-Code/issues"
+    "url": "https://github.com/201flaviosilva-labs/Phaser-Nature-of-Code/issues"
   }
 }
